@@ -1,1 +1,1 @@
-# hashnode-custom-css-templates
+# Hashnode custom css templates
