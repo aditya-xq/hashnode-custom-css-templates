@@ -21,7 +21,7 @@
     --secondary-dark: #03dac6;
     --secondary-variant-dark: #03dac6;
     --background-dark: #121212;
-    --surface-dark: #121212;
+    --surface-dark: #2c2c2c;
     --onPrimary-dark: #000000;
     --onSecondary-dark: #000000;
     --onBackground-dark: #ffffff;
@@ -50,6 +50,10 @@
 
 .blog-post-area {
     background-color: var(--background);
+}
+
+.blog-similar-article-wrapper {
+    background-color: var(--surface);
 }
 
 /*custom css for elements - light mode*/
@@ -114,6 +118,10 @@
 
 .dark .blog-footer-credits {
     color: var(--primary-dark);
+}
+
+.dark .blog-similar-article-wrapper {
+    background-color: var(--surface-dark);
 }
 
 /*custom css for elements - dark mode*/
