@@ -1,4 +1,4 @@
-# Hashnode custom css templates
+# Hashnode Custom CSS Templates
 
 ![image](https://user-images.githubusercontent.com/32733783/160272827-7b81bef6-c242-4bf9-8124-1a86ed659ea8.png)
 
