@@ -1,6 +1,8 @@
 /*Themes and colors are based on Material UI design*/
 /*To use custom css for elements in blog, same id must be used in html tags in markdown*/
 
+/* Theme based on shades of violet with cyan as secondary color */
+
 /* Theme constants */
 :root {
     --primary: #6200ee;
