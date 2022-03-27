@@ -1,0 +1,96 @@
+/*Themes and colors are based on Material UI design*/
+/*To use custom css for elements in blog, same id must be used in html tags in markdown*/
+
+/* Theme constants */
+:root {
+    --primary: #6200ee;
+    --primary-variant: #3700b3;
+    --secondary: #03dac6;
+    --secondary-variant: #018786;
+    --background: #f9f7fc;
+    --surface: #ebe4f5;
+    --onPrimary: #ffffff;
+    --onSecondary: #000000;
+    --onBackground: #000000;
+    --onSurface: #000000;
+    /*Dark mode*/
+    --primary-dark: #bb86fc;
+    --primary-variant-dark: #3700b3;
+    --secondary-dark: #03dac6;
+    --secondary-variant-dark: #03dac6;
+    --background-dark: #121212;
+    --surface-dark: #121212;
+    --onPrimary-dark: #000000;
+    --onSecondary-dark: #000000;
+    --onBackground-dark: #ffffff;
+    --onSurface-dark: #ffffff;
+}
+
+/**/
+/*CSS for light mode*/
+/**/
+
+.blog-header {
+    background-color: var(--primary);
+}
+
+.container {
+    color: var(--onPrimary);
+}
+
+.scrollbar-container {
+    color: var(--surface);
+}
+
+.blog-social-media-section {
+    color: var(--onPrimary);
+}
+
+.blog-article-card {
+    background-color: var(--surface);
+    padding-bottom: 15px;
+}
+
+/**/
+/*CSS for dark mode*/
+/**/
+
+.dark .blog-header {
+    background-color: var(--primary-dark);
+}
+
+.dark .blog-search-button {
+    color: var(--onPrimary-dark);
+}
+
+.dark .blog-theme-switcher {
+    color: var(--onPrimary-dark);
+}
+
+.dark .blog-settings {
+    color: var(--onPrimary-dark);
+}
+
+.dark .scrollbar-container {
+    color: var(--onPrimary-dark);
+}
+
+.dark .blog-social-media-section {
+    color: var(--onPrimary-dark);
+}
+
+.dark .blog-article-card {
+    background-color: var(--surface-dark);
+    padding-bottom: 15px;
+}
+
+/*CSS adjustments for mobile screens*/
+
+@media screen and (max-width: 770px) {
+    .dark .scrollbar-container {
+        color: var(--primary-dark);
+    }
+    .scrollbar-container {
+        color: var(--primary);
+    }
+}
