@@ -1,8 +1,6 @@
 /*Themes and colors are based on Material UI design*/
 /*To use custom css for elements in blog, same id must be used in html tags in markdown*/
 
-/* Theme based on shades of violet with cyan as secondary color */
-
 /* Theme constants */
 :root {
     --primary: #6200ee;
@@ -20,7 +18,7 @@
     --primary-variant-dark: #3700b3;
     --secondary-dark: #03dac6;
     --secondary-variant-dark: #03dac6;
-    --background-dark: #121212;
+    --background-dark: #1c1c1c;
     --surface-dark: #2c2c2c;
     --onPrimary-dark: #000000;
     --onSecondary-dark: #000000;
@@ -41,37 +39,16 @@
 }
 
 .scrollbar-container {
-    color: var(--onPrimary);
+    color: var(--surface);
 }
 
 .blog-social-media-section {
     color: var(--onPrimary);
 }
 
-.blog-post-area {
-    background-color: var(--background);
-}
-
-.blog-similar-article-wrapper {
+.blog-article-card {
     background-color: var(--surface);
-}
-
-/*custom css for elements - light mode*/
-
-#custom-h3 {
-    color: var(--primary);
-}
-
-#custom-hr {
-    border-color: var(--primary);
-}
-
-#custom-link {
-    color: var(--primary);
-}
-
-#custom-link:hover {
-    color: var(--secondary);
+    padding-bottom: 15px;
 }
 
 /**/
@@ -80,10 +57,6 @@
 
 .dark .blog-header {
     background-color: var(--primary-dark);
-}
-
-.dark .blog-title {
-    color: var(--onPrimary-dark);
 }
 
 .dark .blog-search-button {
@@ -106,40 +79,9 @@
     color: var(--onPrimary-dark);
 }
 
-.dark .blog-post-area {
-    background-color: var(--background-dark);
-}
-
-.dark .author-follow-button {
-    background-color: var(--primary-dark);
-    color: var(--onPrimary-dark);
-    border-color: var(--onPrimary-dark);
-}
-
-.dark .blog-footer-credits {
-    color: var(--primary-dark);
-}
-
-.dark .blog-similar-article-wrapper {
+.dark .blog-article-card {
     background-color: var(--surface-dark);
-}
-
-/*custom css for elements - dark mode*/
-
-.dark #custom-h3 {
-    color: var(--primary-dark);
-}
-
-.dark #custom-hr {
-    border-color: var(--primary-dark);
-}
-
-.dark #custom-link {
-    color: var(--primary-dark);
-}
-
-.dark #custom-link:hover {
-    color: var(--secondary-dark);
+    padding-bottom: 15px;
 }
 
 /*CSS adjustments for mobile screens*/
