@@ -39,16 +39,33 @@
 }
 
 .scrollbar-container {
-    color: var(--surface);
+    color: var(--onPrimary);
 }
 
 .blog-social-media-section {
     color: var(--onPrimary);
 }
 
-.blog-article-card {
+.blog-post-area {
+    background-color: var(--background);
+}
+
+.blog-similar-article-wrapper {
     background-color: var(--surface);
-    padding-bottom: 15px;
+}
+
+/*custom css for elements - light mode*/
+
+#custom-h3 {
+    color: var(--primary);
+}
+
+#custom-hr {
+    border-color: var(--primary);
+}
+
+#custom-link {
+    color: var(--primary);
 }
 
 /**/
@@ -57,6 +74,10 @@
 
 .dark .blog-header {
     background-color: var(--primary-dark);
+}
+
+.dark .blog-title {
+    color: var(--onPrimary-dark);
 }
 
 .dark .blog-search-button {
@@ -79,9 +100,37 @@
     color: var(--onPrimary-dark);
 }
 
-.dark .blog-article-card {
+.dark .blog-post-area {
+    background-color: var(--background-dark);
+}
+
+.dark .author-follow-button {
+    background-color: var(--primary-dark);
+    color: var(--onPrimary-dark);
+    border-color: var(--onPrimary-dark);
+}
+
+.dark .blog-footer-credits {
+    color: var(--primary-dark);
+}
+
+.dark .blog-similar-article-wrapper {
     background-color: var(--surface-dark);
-    padding-bottom: 15px;
+}
+
+
+/*custom css for elements - dark mode*/
+
+.dark #custom-h3 {
+    color: var(--primary-dark);
+}
+
+.dark #custom-hr {
+    border-color: var(--primary-dark);
+}
+
+.dark #custom-link {
+    color: var(--primary-dark);
 }
 
 /*CSS adjustments for mobile screens*/
